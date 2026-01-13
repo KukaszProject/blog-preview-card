@@ -5,14 +5,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "lint": "eslint .",
-    "preview": "vite preview",
-  "start": "react-scripts start",
+  "dev": "vite",
+  "lint": "eslint .",
+  "preview": "vite preview",
   "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "build": "react-scripts build"
-  },
+  "deploy": "gh-pages -d dist",
+  "build": "vite build"
+},
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
